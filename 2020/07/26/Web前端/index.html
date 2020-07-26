@@ -9,6 +9,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -116,6 +118,7 @@
       <h1 class="site-title">Web开发</h1>
       <i class="logo-line"></i>
     </a>
+      <p class="site-subtitle" itemprop="description">专注Web全栈开发</p>
   </div>
 
   <div class="site-nav-right">
@@ -214,7 +217,7 @@
     <img class="site-author-image" itemprop="image" alt="池鱼"
       src="/images/avatar.png">
   <p class="site-author-name" itemprop="name">池鱼</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">vue node</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
@@ -294,7 +297,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.png">
       <meta itemprop="name" content="池鱼">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="vue node">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -332,21 +335,7 @@
               </span>
               <span class="post-meta-item-text">阅读次数：</span>
               <span id="busuanzi_value_page_pv"></span>
-            </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">评论数：</span>
-    
-    <a title="valine" href="/2020/07/26/Web%E5%89%8D%E7%AB%AF/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/07/26/Web%E5%89%8D%E7%AB%AF/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
+            </span><br>
             <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
                 <i class="far fa-file-word"></i>
@@ -466,7 +455,7 @@
 
         </div>
         
-    <div class="comments" id="valine-comments"></div>
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -594,16 +583,23 @@
 
   
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
 
 <script>
-NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js', () => {
-    new Valine(Object.assign({
-      el  : '#valine-comments',
-      path: location.pathname,
-    }, {"enable":true,"appId":"sFqUTJo1bCW8cJzijsOKDUAY-gzGzoHsz","appKey":"33gxSgg7xJDqK8YtSWOKhDVk","placeholder":"发表评论吧~","avatar":"wavatar","meta":["nick","mail","link"],"pageSize":10,"language":null,"visitor":false,"comment_count":true,"recordIP":false,"serverURLs":null,"requiredFields":["nick"]}
-    ));
-  }, window.Valine);
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'e9318ddc0a17fd8fe245',
+      clientSecret: 'eda40ad5f0b6e9e1920f935c25d72a86b4a2b564',
+      repo        : 'zhangjian1997',
+      owner       : '',
+      admin       : ['zhangjian1997'],
+      id          : '67cef2cc750f9350e3431ca3a352e499',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
 });
 </script>
 

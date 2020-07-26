@@ -31,6 +31,19 @@
       </tags>
   </entry>
   <entry>
+    <title>Spring</title>
+    <url>/2020/07/26/%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87/</url>
+    <content><![CDATA[<p>Spring框架是由于软件开发的复杂性而创建的。Spring使用的是基本的JavaBean来完成以前只可能由EJB完成的事情。然而，Spring的用途不仅仅限于服务器端的开发。从简单性、可测试性和松耦合性角度而言，绝大部分Java应用都可以从Spring中受益。<br>◆目的：解决企业应用开发的复杂性<br>◆功能：使用基本的JavaBean代替EJB，并提供了更多的企业应用功能<br>◆范围：任何Java应用<a id="more"></a><br>Spring是一个轻量级控制反转(IoC)和面向切面(AOP)的容器框架。<br>Spring框架是由于软件开发的复杂性而创建的。Spring使用的是基本的JavaBean来完成以前只可能由EJB完成的事情。然而，Spring的用途不仅仅限于服务器端的开发。从简单性、可测试性和松耦合性角度而言，绝大部分Java应用都可以从Spring中受益。<br>◆目的：解决企业应用开发的复杂性<br>◆功能：使用基本的JavaBean代替EJB，并提供了更多的企业应用功能<br>◆范围：任何Java应用<br>Spring是一个轻量级控制反转(IoC)和面向切面(AOP)的容器框架。</p>
+]]></content>
+      <categories>
+        <category>后端</category>
+      </categories>
+      <tags>
+        <tag>导航</tag>
+        <tag>分享</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2020/07/25/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -48,18 +61,5 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Spring</title>
-    <url>/2020/07/26/%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87/</url>
-    <content><![CDATA[<p>Spring框架是由于软件开发的复杂性而创建的。Spring使用的是基本的JavaBean来完成以前只可能由EJB完成的事情。然而，Spring的用途不仅仅限于服务器端的开发。从简单性、可测试性和松耦合性角度而言，绝大部分Java应用都可以从Spring中受益。<br>◆目的：解决企业应用开发的复杂性<br>◆功能：使用基本的JavaBean代替EJB，并提供了更多的企业应用功能<br>◆范围：任何Java应用<a id="more"></a><br>Spring是一个轻量级控制反转(IoC)和面向切面(AOP)的容器框架。<br>Spring框架是由于软件开发的复杂性而创建的。Spring使用的是基本的JavaBean来完成以前只可能由EJB完成的事情。然而，Spring的用途不仅仅限于服务器端的开发。从简单性、可测试性和松耦合性角度而言，绝大部分Java应用都可以从Spring中受益。<br>◆目的：解决企业应用开发的复杂性<br>◆功能：使用基本的JavaBean代替EJB，并提供了更多的企业应用功能<br>◆范围：任何Java应用<br>Spring是一个轻量级控制反转(IoC)和面向切面(AOP)的容器框架。</p>
-]]></content>
-      <categories>
-        <category>后端</category>
-      </categories>
-      <tags>
-        <tag>导航</tag>
-        <tag>分享</tag>
-      </tags>
   </entry>
 </search>
